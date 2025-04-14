@@ -126,7 +126,7 @@ const AppShowcase = () => {
                 <img src={protonix} alt="Protonix Website" />
               </div>
               <h2>Company Website — PROTONIX AI PVT LTD</h2>
-              <a href="https://protonix.tech/" target="_blank" rel="noopener noreferrer">
+              <a href="https://protonix-pvt-ltd-qlca.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button className="cta-button  hover:bg-blue-800">
                   View Project
                 </button>
