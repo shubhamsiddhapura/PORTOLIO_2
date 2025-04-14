@@ -2,6 +2,11 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import studynotion from "../Assets/studynotion.png";
+import malkhana from "../Assets/malkhana.png";
+import gpt from "../Assets/gpt.png";
+import restro from "../Assets/restro.png";
+import protonix from "../Assets/protonix.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,7 +54,7 @@ const AppShowcase = () => {
           {/* Malkhana */}
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper border-white border-8 rounded-xl">
-              <img src="/src/Assets/malkhana.png" alt="Malkhana App" />
+              <img src={malkhana} alt="Malkhana App" />
             </div>
             <div className="text-content">
               <h2>Evidence Management Made Simple with Malkhana</h2>
@@ -68,7 +73,7 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-blue-300">
-                <img src="/src/Assets/restro.png" alt="Restaurant App" />
+                <img src={restro} alt="Restaurant App" />
               </div>
               <h2>Delicious Moments Await — Explore Our Restaurant Menu</h2>
               <a href="https://restaurant-app-link.com" target="_blank" rel="noopener noreferrer">
@@ -81,7 +86,7 @@ const AppShowcase = () => {
             {/* GPT App */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-blue-300">
-                <img src="/src/Assets/gpt.png" alt="GPT-based App" />
+                <img src={gpt} alt="GPT-based App" />
               </div>
               <h2>Closing a GPT-based app or session</h2>
               <a href="https://gpt-app-link.com" target="_blank" rel="noopener noreferrer">
@@ -99,7 +104,7 @@ const AppShowcase = () => {
           {/* StudyNotion */}
           <div ref={rydeRef} className="first-project-wrapper rounded-2xl">
             <div className="image-wrapper border-white border-8 rounded-xl">
-              <img src="/src/Assets/studynotion.png" alt="StudyNotion App" />
+              <img src={studynotion} alt="StudyNotion App" />
             </div>
             <div className="text-content">
               <h2>Learning Made Simple with StudyNotion</h2>
@@ -118,7 +123,7 @@ const AppShowcase = () => {
             {/* Protonix */}
             <div className="project">
               <div className="image-wrapper bg-blue-300">
-                <img src="/src/Assets/protonix.png" alt="Protonix Website" />
+                <img src={protonix} alt="Protonix Website" />
               </div>
               <h2>Company Website — PROTONIX AI PVT LTD</h2>
               <a href="https://protonix.tech/" target="_blank" rel="noopener noreferrer">
