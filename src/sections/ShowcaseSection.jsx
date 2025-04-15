@@ -89,7 +89,7 @@ const AppShowcase = () => {
                 <img src={gpt} alt="GPT-based App" />
               </div>
               <h2>Closing a GPT-based app or session</h2>
-              <a href="https://gpt-app-link.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://gpt-3-react-js-theta.vercel.app/#wgpt3" target="_blank" rel="noopener noreferrer">
                 <button className="cta-button  hover:bg-blue-800">
                   View Project
                 </button>
