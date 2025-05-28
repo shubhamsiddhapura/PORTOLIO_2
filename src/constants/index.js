@@ -143,7 +143,6 @@ const expLogos = [
   }
 ];
 
-
 const socialImgs = [
   {
     name: "insta",

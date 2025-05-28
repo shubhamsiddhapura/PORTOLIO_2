@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { words ,socialImgs   } from "../constants";
-
+import {Link} from "react-router-dom";
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
@@ -51,7 +51,7 @@ const Hero = () => {
               <h1 className=" text-lg  text-amber-200 text-justify"> I'm a dedicated Web and Software Developer with a knack for building scalable, high-performing applications. From sleek user interfaces to robust backend systems, 
                 I bring ideas to life with clean code and creative solutions. Let's create something impactful!</h1>
             </p>
-            <div className=" w-36 h-36  flex gap-4">
+            <div className=" w-48 h-48  flex gap-2">
                       {socialImgs.map((socialImg, index) => (
                         <a
                           key={index}
@@ -63,6 +63,8 @@ const Hero = () => {
                           <img src={socialImg.imgPath} className="hover:bg-blue-500 rounded-xl" alt={`${socialImg.name} icon`} />
                         </a>
                       ))}
+                     
+                     <a className="  " href="https://drive.google.com/drive/folders/1P-bmZAo_uzHv6OhoveIPe3XtEu85jDnC">Resume</a>
                     </div>
             
             
